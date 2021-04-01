@@ -134,7 +134,23 @@ mybatis-plus:
   type-aliases-package: com.ruoyi.project.**.entity #所有实体类所在的包名
 
 
+#阿里云 OSS
+aliyunoss:
+  endpoint: http://oss-cn-beijing.aliyuncs.com
+  accessKeyId: LTAIDv0C5S0lgLBi
+  accessKeySecret: FyKl29h636239Ovh2ed1ONt4xbqGJK
+  bucketName: bdzx
+  folder : test
+#  webUrl: https://tzqimg.oss-cn-hangzhou.aliyuncs.com
+  webUrl: http://bdzx.oss-cn-beijing.aliyuncs.com
 
+
+picture:
+  #  服务器图片保存路径
+  location: D:\Server\pictures\ssuzhou\images\awc\event
+  #  外网访问地址
+  internet:
+    address: http://62.234.119.86:8089/images/awc/event
 
 
 
